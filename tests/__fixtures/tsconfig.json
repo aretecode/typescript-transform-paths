@@ -14,8 +14,7 @@
     "esModuleInterop": true,
 
     "plugins": [
-      { "transform": "../../" },
-      { "transform": "../../", "afterDeclarations": true }
+      { "transform": "../../", "after": true }
     ]
   }
 }
